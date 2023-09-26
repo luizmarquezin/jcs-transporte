@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #acacac;
+    color: #000000;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header #logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor do link */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Cor ao passar o mouse sobre o link */
+}
+
+/* Estilos para seções */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não couberem na largura */
+    justify-content: space-between;
+}
+
+section ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Calcula a largura dos itens com margens */
+    box-sizing: border-box; /* Inclui margens na largura dos itens */
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Adiciona uma borda fina às imagens */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Estilos gerais */
+/* ... (seus estilos gerais aqui) */
+
+/* Estilos para abas */
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; /* Espaçamento interno para as abas */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para a cor de fundo e texto */
+}
+
+nav ul li a:hover {
+    background-color: #007bff; /* Cor de fundo ao passar o mouse sobre a aba */
+    color: #fff; /* Cor do texto ao passar o mouse sobre a aba */
+}
+
+/* ... (seus estilos para outras partes do site aqui) */
